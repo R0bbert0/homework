@@ -1,0 +1,34 @@
+.a {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  /*'сразу подгрузил свойства
+  font-weight: 300;
+  font-style: italic; */
+}
+
+.b {
+  text-decoration: line-through;
+}
+
+.c {
+  font-family: 'Times New Roman', serif;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 30px;
+  line-height: 40px;
+}
+
+.d {
+  word-spacing: 30px;
+  text-decoration: overline;
+  text-decoration-style: wavy;
+  text-decoration-color: blueviolet;
+  color: red;
+}
+
+.e {
+  letter-spacing: 5px;
+  text-decoration: underline;
+  text-decoration-thickness: 4px;
+}
