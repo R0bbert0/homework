@@ -1,0 +1,50 @@
+body {
+  background-color: rgb(33, 31, 31);
+}
+
+/* .wrapper {
+  position: relative;
+} */
+
+.title {
+  margin-left: 45%;
+
+  color: white;
+  font-size: 40px;
+  display: inline;
+  /* text-align: center; */
+}
+
+.wrapper::before {
+  content: '';
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: red;
+  /* display: block; */
+
+  border-style: solid;
+  border-color: white;
+
+  transform: translate(500px);
+
+}
+
+.wrapper::after {
+  content: '';
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgb(52, 47, 206);
+  /* display: block; */
+
+  border-style: solid;
+  border-color: white;
+
+  transform: translate(30px);
+
+}
+
+/*  более-менее похоже, но очень кривой код, я пробовал по-разному делать, но получилось то, что получилось. */
