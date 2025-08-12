@@ -23,7 +23,7 @@ body {
   /* display: none; */
   /* visibility: hidden; */
   opacity: 0;
-  transition: opacity .2s 2.1s;
+  /* transition-delay: 3s; */
   color: green;
   margin: auto;
   font-size: 22px;
@@ -33,8 +33,7 @@ body {
   width: 0;
 }
 
-.square:hover {
-  .square__loading {
+.square:hover .square__loading {
     background-color: white;
     width: 530px;
     height: 20px;
@@ -43,7 +42,6 @@ body {
     top: 20%;
     left: 30%;
     transition: all 2s;
-  }
 }
 
 .square:hover .square__message {
@@ -52,5 +50,6 @@ body {
   transition-delay: 4s; */
   /* display: block; */
   /* visibility: visible; */
+  transition:  .1s 2.1s ;
   opacity: 1;
 }
